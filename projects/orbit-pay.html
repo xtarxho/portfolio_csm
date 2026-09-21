@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit Pay — 홍길동</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="홍길동 홈">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="10" fill="#1a1814" />
+              <path
+                d="M12 28V12h4.1v6.4h7.8V12H28v16h-4.1v-6.5h-7.8V28H12z"
+                fill="#f4f0e8"
+              />
+            </svg>
+          </span>
+          <span class="logo-text">
+            <strong>홍길동</strong>
+            <span>Portfolio</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span class="sr-only">메뉴 열기</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <ul>
+            <li><a href="../index.html#about">소개</a></li>
+            <li><a href="../index.html#work">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <a class="back-link" href="../index.html#work">← 프로젝트 목록</a>
+
+      <figure class="project-hero">
+        <img
+          src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1600&q=80"
+          alt="모바일 앱 인터페이스가 놓인 디자인 작업 장면"
+          width="1600"
+          height="900"
+        />
+      </figure>
+
+      <p class="project-meta">
+        <span>2025</span>
+        <span>Product</span>
+        <span>UI / UX</span>
+      </p>
+      <h1 class="project-title">Orbit Pay</h1>
+
+      <article class="project-body">
+        <p>
+          해외 송금 앱의 첫 사용 경험을 다시 설계한 프로젝트입니다. 인증,
+          수취인 등록, 송금 확인까지 이어지는 단계를 줄여 첫 송금 완료율을
+          높이는 것이 목표였습니다.
+        </p>
+        <h2>문제</h2>
+        <p>
+          기존 플로우는 설명 화면이 많고 입력 항목이 분산되어 있었습니다.
+          사용자는 중간에 이탈하거나, 수수료와 도착 시간을 이해하지 못한 채
+          진행을 멈췄습니다.
+        </p>
+        <h2>접근</h2>
+        <p>
+          온보딩을 핵심 한 장으로 압축하고, 송금 화면에 예상 수수료와 도착
+          시각을 바로 노출했습니다. 반복 송금을 위한 수취인 카드를 추가해
+          두 번째 이후 사용도 짧게 만들었습니다.
+        </p>
+        <h2>결과</h2>
+        <p>
+          프로토타입 테스트에서 첫 송금 완료 시간이 줄어들었고, 수수료에 대한
+          질문도 눈에 띄게 감소했습니다.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> 홍길동</p>
+      <p>Seoul, Korea</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>

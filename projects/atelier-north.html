@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier North — 홍길동</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="logo" href="../index.html" aria-label="홍길동 홈">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none">
+              <rect width="40" height="40" rx="10" fill="#1a1814" />
+              <path
+                d="M12 28V12h4.1v6.4h7.8V12H28v16h-4.1v-6.5h-7.8V28H12z"
+                fill="#f4f0e8"
+              />
+            </svg>
+          </span>
+          <span class="logo-text">
+            <strong>홍길동</strong>
+            <span>Portfolio</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-nav-toggle
+        >
+          <span class="sr-only">메뉴 열기</span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" data-nav>
+          <ul>
+            <li><a href="../index.html#about">소개</a></li>
+            <li><a href="../index.html#work">프로젝트</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <a class="back-link" href="../index.html#work">← 프로젝트 목록</a>
+
+      <figure class="project-hero">
+        <img
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1600&q=80"
+          alt="밝은 자연광이 들어오는 현대적인 오피스 공간"
+          width="1600"
+          height="900"
+        />
+      </figure>
+
+      <p class="project-meta">
+        <span>2024</span>
+        <span>Branding</span>
+        <span>Web</span>
+      </p>
+      <h1 class="project-title">Atelier North</h1>
+
+      <article class="project-body">
+        <p>
+          건축 스튜디오를 위한 아이덴티티와 아카이브 사이트입니다. 도면과
+          사진이 주인공이 되도록, 브랜드 요소는 절제된 타이포와 여백으로
+          구성했습니다.
+        </p>
+        <h2>문제</h2>
+        <p>
+          기존 자료는 프로젝트마다 파일 형식이 달랐고, 웹사이트는 이미지를
+          충분히 보여주지 못했습니다. 의뢰 문의도 어떤 작업을 하는지 알기
+          어려워 전환이 낮았습니다.
+        </p>
+        <h2>접근</h2>
+        <p>
+          워드마크와 컬러 시스템을 정리한 뒤, 프로젝트 그리드와 상세 페이지를
+          반응형으로 설계했습니다. 필터는 용도·규모만 남겨 탐색을 단순하게
+          유지했습니다.
+        </p>
+        <h2>결과</h2>
+        <p>
+          스튜디오는 포트폴리오를 직접 업데이트할 수 있게 되었고, 문의 메일에는
+          관심 프로젝트 링크가 함께 도착하는 경우가 늘었습니다.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> 홍길동</p>
+      <p>Seoul, Korea</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
